@@ -1,0 +1,118 @@
+.container {
+  margin: 0 auto;
+  width: 380px;
+  background-color: #f5f5f5;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px 30px;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  width: 80%;
+  margin: 10px auto;
+  height: 2px;
+  background-color: rgb(59, 130, 246);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-top: 15px;
+  label {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0 12px;
+  font-size: 15px;
+  color: #333;
+  transition: border 0.3s ease;
+  outline: none;
+  &:focus {
+    border-color: rgb(59, 130, 246);
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+}
+
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgb(59, 130, 246);
+  }
+}
+
+.errorMessage {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.successMessage {
+  color: rgb(59, 130, 246);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.submitButton {
+  margin: 20px 0;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(59, 130, 246);
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2563eb;
+  }
+
+  &:active {
+    background-color: #2563eb;
+  }
+}
+.registerBtn {
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+}

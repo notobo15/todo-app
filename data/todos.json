@@ -1,0 +1,16 @@
+[
+  {
+    "id": "50e8fe04-b5c4-40fd-91be-c5ea9916bea6",
+    "todo": "Cong viec 1",
+    "createdDate": "2024-11-14T06:00:20.103Z",
+    "isCompleted": true,
+    "userId": "90a0bf5d-f801-4ffe-8c7e-4cc1c22bf15a"
+  },
+  {
+    "id": "3394678c-944d-4aed-8656-04cac081ec4d",
+    "todo": "Cong viec 2",
+    "createdDate": "2024-11-14T06:00:29.671Z",
+    "isCompleted": true,
+    "userId": "90a0bf5d-f801-4ffe-8c7e-4cc1c22bf15a"
+  }
+]

@@ -1,0 +1,118 @@
+.containerRegister {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #f9f9f9;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  padding: 20px;
+
+  h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.line {
+  width: 80%;
+  margin: 10px auto;
+  height: 2px;
+  background-color: rgb(59, 130, 246);
+}
+
+.nameField,
+.emailField,
+.passField {
+  padding: 0 20px;
+  margin-top: 20px;
+
+  label {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 0 12px;
+    font-size: 15px;
+    color: #333;
+    transition: all 0.3s ease;
+    outline: none;
+    &:focus {
+      border-color: rgb(59, 130, 246);
+      box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+    }
+  }
+}
+
+.formGroup {
+  position: relative;
+}
+
+.errorsField {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.successMessage {
+  color: rgb(59, 130, 246);
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.btnShow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgb(59, 130, 246);
+  }
+}
+
+.btnRegister {
+  margin: 20px;
+  text-align: center;
+  width: 90%;
+  height: 45px;
+  background-color: rgb(59, 130, 246);
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background-color: #1e9f25;
+  }
+
+  &:active {
+    background-color: #188e1f;
+  }
+}
+.registerBtn {
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+}
